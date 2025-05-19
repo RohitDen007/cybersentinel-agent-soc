@@ -1,0 +1,62 @@
+# === Python Bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual Environments ===
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# === Environment and Secrets ===
+.env
+config/settings.env
+secrets.env
+
+# === Log Files ===
+*.log
+logs/
+
+# === OS Generated Files ===
+.DS_Store
+Thumbs.db
+
+# === IDE/Editor Files ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Data Files ===
+data/
+*.csv
+*.json
+*.xlsx
+*.db
+
+# === Model Checkpoints ===
+models/
+*.pt
+*.pkl
+*.h5
+*.ckpt
+
+# === Notebooks and Outputs ===
+.ipynb_checkpoints/
+*.out
+*.tmp
+
+# === Testing/Build ===
+*.egg-info/
+dist/
+build/
+
+# === FastAPI/Flask Cache ===
+__pycache__/
+*.pid
+*.pid.lock
+
+# === CrewAI or LangGraph Cache (if used) ===
+.cache/
